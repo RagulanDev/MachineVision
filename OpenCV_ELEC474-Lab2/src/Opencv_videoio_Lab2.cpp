@@ -23,8 +23,6 @@ void videoDetect(VideoCapture cap);
 void testVideo();
 
 //Create Background Subtractor Objects
-//Ptr<BackgroundSubtractor> pMOG;
-//Alternatively...
 Ptr<BackgroundSubtractor> pMOG = createBackgroundSubtractorMOG2();
 
 //Create the cap object
