@@ -73,7 +73,7 @@ void imageFlip(Mat inputImg) {
 	Mat mirroryImg = inputImg.clone();
 	Mat mirrorxImg = inputImg.clone();
 
-	//Looping through pixels, inverting pixels
+	//Looping through pixels, fliping pixels
 	for (int r = 0; r < inputImg.rows; r++) {
 		for (int c = 0; c < inputImg.cols; c++) {
 			mirrorxImg.at<uchar>(r, c) = inputImg.at<uchar>(r,
